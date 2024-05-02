@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "tkinterhw"
+version = "0.1.0"
+description = "tkinter hello world!"
+authors = ["AccelQuasarDragon <138998466+AccelQuasarDragon@users.noreply.github.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+taskipy = "^1.12.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.taskipy.tasks]
+run = 'python tkinterhw/main.py'
